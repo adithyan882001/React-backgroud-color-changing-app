@@ -37,7 +37,7 @@ function App() {
       </Stack>
 
       <div className='inpt-div'>
-        <TextField onChange={(e)=>handleChange(e.target.value)} id="standard-basic" label="Custom Color" variant="standard" />
+        <TextField onChange={(e)=>handleChange(e.target.value)} label="Custom Color" variant="filled" color="success" focused />
         <Button onClick={customChange} variant="outlined" color="error">
           Change
         </Button>
